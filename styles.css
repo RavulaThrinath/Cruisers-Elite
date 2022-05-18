@@ -1,0 +1,262 @@
+
+head{
+    width: 100%;
+}
+a:hover {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #f57f14;
+
+  }
+  .active{
+      text-decoration: underline;
+
+  }
+.header-container{
+    background-image: url(headerimg.jpg);
+    width: 100%;
+    text-align: right;
+    top:0%;
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+
+.headerbar{
+    padding-left: 10%;
+    padding-top:1%;
+    padding-right:1%;
+    width: 80%;
+    padding-bottom:1%;
+    text-align: left;
+    background-color: #f57f14;
+    
+}
+.header-container li{
+    display: inline;
+    padding-right: 3%;
+
+
+   
+}
+.header-container a{
+    color: #111;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration-line: unset;
+}
+
+
+
+
+
+
+ .cse-text-header{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    margin-right: 10%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.header-sacet-text{
+    color: #f57f14;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10%;
+    margin-top:-1.5%;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.homepage{
+    margin-top: 100px;
+}
+
+ 
+.firstslide{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px ;
+
+}
+
+.firstslidetext{
+    margin-top: 50px;
+
+}
+.firstslide img{
+    width: 350px;
+    height: 350px;
+    margin: 50px 0 0 10px;
+    border-radius: 15px;
+}
+.csepara{
+    font-size: 20px;
+    width: 800px;
+    color: #111;
+    opacity: 1px;
+    font-family: 'Poppins', sans-serif  ;
+}
+.dept{
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.cs{
+    font-size: 90px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #f57f14;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+ .secondslide{
+     margin-left: 50px;
+     margin-top: 150px;
+ }
+
+.activity-list-heading{
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #f57f14;
+    margin-left: 40px;
+    
+}
+
+.activitylist{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+
+}
+.secondslide li{
+    padding-bottom: 30px;;
+}
+.sample{
+    margin-top: 300px;
+    margin-left: 50%;
+}
+
+
+/****************************************************************************************/
+
+
+
+@media (max-width: 800px){
+    .cse-text-header{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        margin-right: 10%;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    .header-container a{
+        color: #111;
+        font-weight: bolder;
+        font-size: 10px;
+        font-family: 'Merriweather Sans', sans-serif;
+        text-decoration-line: unset;
+    }
+
+    .header-sacet-text{
+        color: #f57f14;
+        font-size: 15px;
+        font-weight: 300;
+        margin-right: 10%;
+        margin-top:-1.5%;
+        font-family: 'Merriweather Sans', sans-serif;
+    
+    }
+
+
+  .homepage{
+      margin-top: 200px;
+      padding-left: 55px;
+      margin-top: 0px;
+  }
+
+     
+.firstslide{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px  ;
+    margin-left: 10px;
+}
+
+.firstslidetext{
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.firstslide img{
+    width: 150px;
+    height: 150px;
+   margin-top: 50px;
+    border-radius: 15px;
+}
+.csepara{
+    font-size: 10px;
+    width: 300px;
+    color: #111;
+    left: 1px;
+    font-family: 'Poppins', sans-serif  ;
+}
+.dept{
+    font-size: 17px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.cs{
+    font-size: 35px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #f57f14;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+
+
+
+
+.secondslide{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.activity-list-heading{
+   font-size: 25px;
+   font-family: 'Merriweather Sans', sans-serif;
+   color: #f57f14;
+   margin-left: 00px;
+   
+}
+
+.activitylist{
+   font-family: 'Merriweather Sans', sans-serif;
+   font-size: 10px;
+
+}
+.secondslide li{
+   padding-bottom: 30px;
+   width: 400px;
+}
+.sample{
+   margin-top: 300px;
+   margin-left: 50%;
+}
+}
+
+

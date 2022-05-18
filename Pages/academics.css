@@ -1,0 +1,101 @@
+
+ body{
+    background: rgba(0,0,0,0.9)url(headerimg.jpg);
+    background-blend-mode: darken;
+    text-align: center;
+}
+h1{
+    color: #111;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: 300px;
+    background: #f57f14;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0%;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 40px;
+    margin-left: 2%;
+
+}
+
+
+.firstslide{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 40px ;
+
+}
+ 
+.secondslide{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 40px ;
+
+}
+ 
+.fourthslide{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 40px ;
+
+}
+ 
+.thirdslide{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 40px ;
+
+}
+
+
+
+.firstslidetext{
+    margin-top: 50px;
+
+}
+ img{
+    width: 350px;
+    height: 350px;
+    margin: 50px 0 0 10px;
+    border-radius: 15px;
+}
+.csepara{
+    font-size: 20px;
+    width: 800px;
+    color: #fff;
+    opacity: 1px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif  ;
+}
+.dept{
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.cs{
+    font-size: 70px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: skyblue;
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 0px;
+
+}
+.secondslide .cs{
+     font-size: 60px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: skyblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
