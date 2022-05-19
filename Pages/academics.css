@@ -30,20 +30,20 @@ h2{
 
 .firstslide{
     display: flex;
-    justify-content: space-around;
+   
     margin: 100px 40px ;
 
 }
  
 .secondslide{
-    display: flex;
+    
     justify-content: space-around;
     margin: 100px 40px ;
 
 }
  
 .fourthslide{
-    display: flex;
+    
     justify-content: space-around;
     margin: 100px 40px ;
 
@@ -98,4 +98,18 @@ h2{
     margin-top: 0px;
     margin-bottom: 0px;
 
+}
+
+@media (max-width: 900px){
+    
+    .academics .firstslide{
+        display: block !important;
+    }
+    img{
+        width: 550px;
+        height: 550px;
+        margin: 50px 0 0 10px;
+        border-radius: 15px;
+    }
+    
 }

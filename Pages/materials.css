@@ -48,7 +48,8 @@ body{
 }
 table a{
     font-style: italic;
-    color: #f57f14
+    color: #f57f14;
+    cursor: pointer;
 }
 table p{
     font-weight: bold;
